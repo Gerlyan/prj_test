@@ -1,5 +1,8 @@
 import React from 'react';
-import TablaPronosticoClima from '../TablaPronosticoClima/TablaPronosticoClima';
+import './InicioApp.css';
+// import TablaPronosticoClima from '../TablaPronosticoClima/TablaPronosticoClima';
+import TablaUsuarios from '../TablaUsuarios/TablaUsuarios';
+
 
 class InicioApp extends React.Component{
     constructor(props){
@@ -8,10 +11,10 @@ class InicioApp extends React.Component{
 
     render(){
         return (
-            <div >
+            <div className='ContenidoInicio'>
                 <br></br>
-                <h1>Pronóstico del clima</h1>
-                <TablaPronosticoClima></TablaPronosticoClima>
+                <h1>Usuarios</h1>
+                <TablaUsuarios></TablaUsuarios>
             </div>
         );
     }
