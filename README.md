@@ -1,3 +1,20 @@
+# Tareas
+El presente proyecto de Front-End se desarrolló en ReactJS, Es un simple proyecto de prueba que se alimenta del los recursos del API "https://jsonplaceholder.typicode.com/"
+
+## 1. Modificar el componente "TablaUsuarios", este componente realiza una petición GET del API "https://jsonplaceholder.typicode.com/users" para obtener una lista de usuarios, con sus respectivos datos y desplegarlos en una tabla dentro del html.
+
+1.1 Limitar la cantidad máxima de filas por desplegar a 5 elementos, ajuste los "props" del componente para realizar la tarea.
+
+1.2. Agregar a la tabla de usuarios una nueva columna llamada "Dirección", y realice los ajustes para llenar esta columna por cada usuario: concatenar (con el formato que desee) los diversos datos obtenidos en el campo "address" de la informacion de usuario obtenido de la consulta get.
+
+## 2. Crear un nuevo componente para desplegar la información de usuario "InfoUsuario": 
+
+2.1. Renderizar este nuevo componente en el componente InicioApp después del elemento TablaUsuarios.
+
+2.2. El objetivo de este componente es que mediante una "entrada de texto" se ingrese un nombre de usuario, y con un botón se realice una consulta get al mismo API "https://jsonplaceholder.typicode.com/users" y se despliegue la información de ese usuario de algún punto debajo de la "entrada de texto" y el botón. (el diseño queda a su discresión, mientras realice la consulta y despliegue la información). 
+*Emplee "estados" del componente para mantener la información consultada, puede usar referencia cualquier componente del proyecto.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
