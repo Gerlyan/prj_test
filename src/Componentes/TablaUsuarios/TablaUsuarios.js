@@ -3,14 +3,6 @@ import axios from 'axios';
 import './TablaUsuarios.css';
 // import {Table} from 'react-bootstrap';
 import Table from 'react-bootstrap/Table'
-/**
- * Sugerencias
- * 1. Que limiten la cantidad de elementos de la tabla mediante los "props" de entrada del componente
- * 2. Agregar una nueva columnas a la tabla, segun la respuesta del json
- * 3. Crear un nuevo componente para el "Pronóstico de hoy" y renderizarlo en el componente InicioApp después del elemento TablaPronosticoClima
- * 3.1. Componente para el "Pronóstico de hoy" puede ser simple con etiquetas vacias al iniciar, y use un botón que realice la consulta al API y llené la información del componente.
- * 3.2. Usar estados para mantener la infomación actual del propóstico que se consultó.
-*/
 
 class TablaUsuarios extends React.Component{
     constructor(props){
